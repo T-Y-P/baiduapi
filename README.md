@@ -13,3 +13,17 @@
 - 手动提交：如果您不想通过程序提交，那么可以采用此种方式，手动将链接提交给百度
 
 多种提交方式互不冲突
+
+### 使用的时候，把上面的域名跟百度的token换成自己的，下面是以Pbootcms建筑系统为例子
+
+
+![返回成功图](https://ask.qcloudimg.com/http-save/yehe-2799756/fe6a51ad90a4cb9ad5ea408df1dea46b.png)
+
+状态码为200，可能返回以下字段：
+
+| 字段 | 是否必选 | 参数类型 | 说明 |
+|:----|:----|:----|:----|
+| success | 是  | int | 成功推送的url条数 |
+| remain | 是 | int | 当天剩余的可推送url条数 |
+| not\_same\_site | 否 | array | 由于不是本站url而未处理的url列表 |
+| not\_valid | 否 | array | 不合法的url列表 |
