@@ -17,3 +17,5 @@ $result = curl_exec($ch);
 echo "<script>console.log('当前百度推送$result;')</script>";
 // echo $result;
 ?>
+
+<!--建议放到网站的底部 这样访问一次 百度提交一次-->
