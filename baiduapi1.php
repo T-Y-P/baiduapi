@@ -20,7 +20,7 @@ $options =  array(
 curl_setopt_array($ch, $options);
 $result = curl_exec($ch);
 echo "<script>console.log('当前百度推送$result;')</script>";
-// echo $result;
+// echo $result;测试打印 可直接删除
 ?>
 
 <!--建议放到网站的底部 这样访问一次 百度提交一次-->
