@@ -1,4 +1,9 @@
 <?php
+/*
+ * @Name: AXI
+ * @Date: 2022-06-20
+ * @ContactTG: @czgov
+ */
 $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERVER['SERVER_PORT'] == 443) ?"https://": "http://";
 $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 //  echo $url;

@@ -32,6 +32,16 @@
 
 博客 [www.czmz.top](https://www.czmz.top)
 
+
+## 更新说明
+> 2022.6.20 新加自动获取当前网站
+
+
+### baiduapi1文件
+> 适单页面，单域名
+### baiduapi2文件
+> 适多域名 多站点站群类
+
 ### 小插曲
 
 > 腾云先锋（TDP，Tencent Cloud Developer Pioneer）是腾讯云 GTS 官方组建并运营的技术开发者群体。这里有最专业的开发者&客户，能与产品人员亲密接触，专有的问题&需求反馈渠道，有一群志同道合的兄弟 姐妹，[来加入属于我们开发者的社群吧 ](https://cloud.tencent.com/developer/article/1855195?from=10680)
