@@ -8,6 +8,7 @@ $protocol = ((!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') || $_SERV
 $url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 $urls = array($url);
 $wz =  (isHTTPS() ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'];
+/*判断当前链接是http还是https */
 function isHTTPS()
 {
     if (defined('HTTPS') && HTTPS) return true;
